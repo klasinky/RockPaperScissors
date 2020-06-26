@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css?v=3" />
+    <title>Piedra Papel o tijera</title>
+  </head>
+  <body>
+    <header>
+      <h2>Piedra Papel o tijera</h2>
+    </header>
+
+    <div class="score">
+      <div class="user">
+        <span id="score-user">0</span>
+      </div>
+      <div class="point">:</div>
+      <div class="enemy">
+        <span id="score-ai">0</span>
+      </div>
+    </div>
+    <div class="result">
+      <h2>Selecciona tu opción</h2>
+    </div>
+
+    <div class="board">
+      <div class="choice" id="paper">
+        <img src="images/paper.png" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="images/scissors.png" />
+      </div>
+      <div class="choice" id="rock">
+        <img src="images/rock.png" />
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+    <footer><p>Author: Manuel Alejandro Gonzalez</p></footer>
+  </body>
+</html>

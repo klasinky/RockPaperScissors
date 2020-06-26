@@ -1,0 +1,113 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  text-align: center;
+}
+
+/*SCORE*/
+.score {
+  transition: 0.4s ease-in;
+  display: flex;
+  border: 2px solid;
+  border-color: tomato tomato teal teal;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  padding: 15px;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.score-light-lose {
+  border-color: tomato;
+}
+.score-light-win {
+  border-color: teal;
+}
+.score-light-draw {
+  border-color: #404245;
+}
+.score > * {
+  margin: -10px auto;
+}
+
+/*SCORE END*/
+
+.point {
+  background: -webkit-linear-gradient(bottom, tomato, teal);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.user {
+  color: teal;
+}
+
+.enemy {
+  color: tomato;
+}
+.board {
+  margin: 20px auto;
+  text-align: center;
+}
+
+/*CHOICES*/
+
+.choice img {
+  width: 100%;
+  height: 100%;
+}
+
+.choice {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 10px 15px;
+  border: 2px solid;
+  border-color: teal teal tomato tomato;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.choice:hover:not(.win):not(.lose):not(.draw) {
+  cursor: pointer;
+  transition: 0.4s ease-in;
+  background-color: #404245;
+  transform: rotate(360deg);
+}
+
+.win {
+  transition: 0.4s ease-in;
+  border: 2px solid teal;
+  transform: rotateZ(10deg);
+}
+
+.lose {
+  transition: 0.4s ease-in;
+  border: 2px solid tomato;
+  transform: rotateZ(10deg);
+}
+.draw {
+  transition: 0.4s ease-in;
+  border-color: #404245;
+  transform: rotateZ(10deg);
+}
+
+/*RESULT TAG*/
+.result {
+  text-align: center;
+}
+
+/*FOOTER*/
+
+footer {
+  font-weight: bold;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
