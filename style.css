@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: white;
+  background-color: rgb(197, 197, 156);
+  color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
@@ -74,7 +74,7 @@ header {
 .choice:hover:not(.win):not(.lose):not(.draw) {
   cursor: pointer;
   transition: 0.4s ease-in;
-  background-color: #404245;
+  background-color: rgb(156, 156, 141);
   transform: rotate(360deg);
 }
 
