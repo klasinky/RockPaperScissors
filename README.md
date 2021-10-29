@@ -8,3 +8,5 @@ Clone the repository and run the index.html on your Web Browser:
 ```
 git clone https://github.com/klasinky/RockPaperScissors.git
 ```
+
+You can check a demo [here](https://klasinky.github.io/RockPaperScissors/)
